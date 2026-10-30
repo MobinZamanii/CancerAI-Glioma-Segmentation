@@ -1,0 +1,12 @@
+# Install PyTorch first with the build matching your CUDA version: https://pytorch.org/get-started/locally/
+torch>=2.1
+numpy
+scipy
+pandas
+nibabel
+tqdm
+matplotlib
+# optional: MONAI baseline (plain `pip install monai`, not monai[nibabel])
+# monai
+# optional: tests
+# pytest
